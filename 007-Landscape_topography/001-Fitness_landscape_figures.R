@@ -110,11 +110,6 @@ vertical.image.legend(c(rmin,rmax),col=color)
 
 
 
-
-
-
-
-
 ### (B) Figure 1e: Fitness landscape with fitness on the y axis and HD from S.cer in the x axis showing the distribution of genotypes fitness at each distance.
 
 # Using R
