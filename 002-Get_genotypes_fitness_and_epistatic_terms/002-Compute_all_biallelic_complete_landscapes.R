@@ -6,7 +6,7 @@
 # JDE and GD, September 2017
 
 # Load data
-setwd("002-Get_genotypes_fitness//")
+setwd("002-Get_genotypes_fitness_and_epistatic_terms//")
 load(file = "../001-Data/001-GenotypesFitness.RData")
 
 library(parallel)

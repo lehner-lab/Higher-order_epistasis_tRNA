@@ -1,4 +1,5 @@
 ### tRNA Phylogeny Dataset: Use hierarchical fixed effect model to get fitness values and error estimate for each genotype ###
+
 # JDE, September 2017
 
 library(plotrix)
@@ -6,7 +7,9 @@ library(ggplot2)
 library(stringr)
 library(gridExtra)
 
+
 ### Load replicates read counts per genotype after read quality filtering ###
+setwd("002-Get_genotypes_fitness_and_epistatic_terms/")
 file_path <- "../001-Data/"
 filename = paste0(file_path, "tRNA_Phylo_varcounts.tab")
 
