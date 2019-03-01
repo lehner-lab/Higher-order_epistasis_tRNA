@@ -1,4 +1,4 @@
-### 
+### Fitness landscape figures ###
 # (A) Circular fitness landscape (Extended Data Figure 1c)
 # (B) Linear fitness landscape (Figure 1e)
 
