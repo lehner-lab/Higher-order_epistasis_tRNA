@@ -17,8 +17,8 @@ library(matrixStats)
 library(caret)
 
 # Load data
-setwd("~/Google Drive/PhD/Projects/tRNAs/tR-CCU-J/Sequencing_Results/HeatSalt/Manuscript/NatureSub2/01-Log_Biallelic/HigherOrderEpistasis/")
-load("~/Google Drive/PhD/Projects/tRNAs/tR-CCU-J/Sequencing_Results/HeatSalt/Data/04-ModifiedDatasets/03-Phylo/PhyloDS_NoAC_LOG_FixErrorModel.RData")
+setwd("008-GeneticPrediction/")
+load(file = "../001-Data/001-GenotypesFitness.RData")
 P$id[P$class_var=="WT"] = ""
 
 
